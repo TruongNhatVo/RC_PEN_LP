@@ -1,0 +1,49 @@
+.row-clear {
+    @extend %clearfix;
+}
+
+#container {
+    position: relative;
+    background: #fff;
+    width: 960px;
+    margin: 0 auto;
+    @extend %clearfix;
+    // padding: 0 15px;
+}
+/*------------------- Component -------------------*/
+// /*------------------- Typography -------------------*/
+.title-h2,
+.title-h3,
+.arrow {
+    text-align: center;
+}
+.title-h4 {
+    font-size: 24px;    
+   line-height: 1.56;
+}
+.txt {
+   font-size: 24px;
+   line-height: 1.56;
+}
+.note {
+    font-size: 16px;
+}
+
+%clearfix {
+    &:after {
+        display: block;
+        content: '';
+        clear: both;
+    }
+}
+
+.gold {
+    position: absolute;
+    &-txt {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+}

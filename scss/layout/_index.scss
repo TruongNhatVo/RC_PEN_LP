@@ -1,0 +1,555 @@
+/*------------------------------------
+
+            index.html
+
+------------------------------------*/
+
+/*======================================
+        local01
+======================================*/
+.local01 {
+	padding-top: 141px;
+	.title-h2 {
+		padding-bottom: 117px;
+	}
+}
+.banner {
+	position: relative;
+	text-align: center;
+	.btn {
+		&01, &02 {
+			position: absolute;
+		}
+		&01 {			
+			bottom: 343px;
+			width: 100%;
+		}
+		&02 {
+			right: 80px;
+			bottom: 255px;
+		}
+	}
+}
+
+/*======================================
+        local02
+======================================*/
+.local02 {
+	.group-shake {
+		height: 890px;
+		position: relative;
+		background: url('../img/bg_01.png') center center no-repeat;
+		.shake {
+			position: absolute;
+			&01 {
+				top:92px;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+			&02 {
+				left: 30px;
+				bottom: 80px;
+			}
+			&03 {
+				right: 30px;
+				bottom: 80px;
+			}
+		}
+	}
+	.content {
+		background: #DDD4C8;
+		position: relative;
+		min-height: 453px;
+		margin-top: 30px;
+		.title-h3 {
+			padding-bottom: 29px;
+		}
+		.txt {
+			width: 619px;
+			padding-left: 30px;
+		}
+		.thumb {
+			position: absolute;
+			right:0;
+			bottom:0;
+		}
+		.note {
+			position: absolute;
+			bottom: 25px;
+			left: 30px;
+		}
+	}
+}
+
+/*======================================
+        local03
+======================================*/
+
+.local03 {
+	padding-top: 78px;
+	.arrow {
+		&:nth-child(1) {
+			padding-bottom: 50px;
+		}
+	}
+	.title-h2 {
+		padding-bottom: 140px;
+	}
+	.title-h3 {
+		padding-bottom: 95px;
+	}
+	.content {
+		margin-top: 100px;
+		border: 8px solid $color-bd;
+		border-radius: 10px;
+		padding: 25px 0;
+		background: url('../img/bg_02.png') center center;
+		box-shadow: $box-shadow;
+	}
+	.warning {
+		float: left;
+		width: 335px;
+		text-align: center;
+		vertical-align: middle;
+		padding-top: 40px;
+	}
+	.description {
+		float: right;
+		width: 605px;
+		font-size: 24px;	
+		.title-h3 {
+			text-align: left;
+			padding-bottom: 30px;
+		}
+	}
+}
+
+/*======================================
+        local04
+======================================*/
+.local04 {
+	padding-top: 150px;
+	.content {
+		background: url('../img/bg_03.png') center center no-repeat;
+	}
+	.infor {
+		.thumb {
+			float: left;
+			width: 50%;
+			text-align: center;
+			padding-top: 20px;
+			img {
+				width: 428px;
+				height: 428px;
+			}
+		}
+		.description {
+			float: right;
+			width: 50%;
+			font-size: 23px;
+		}
+		.txt {
+			background: white;
+			opacity: 0.7;
+			padding: 22px 30px;
+			box-shadow: $box-shadow;
+			margin-right: 20px;
+		}
+	}
+	.note {
+		padding-top: 30px;
+		font-weight: bold;
+		text-align: right;
+	}
+}
+
+/*======================================
+        local06
+======================================*/
+.local06 {
+	padding-top: 120px;
+	.title-h2 {
+		margin-left: 20px;
+	}
+	.content {
+		background: $color-b;
+		padding-top: 200px;
+		width: 879px;
+		margin: 0 auto;
+		margin-top: -230px;
+		.txt {
+			text-align: center;
+			font-size: 23px;
+		}
+	}
+	.intro {
+		min-height: 754px;
+		position: relative;
+		background: url('../img/bg_06.png') center center no-repeat;
+		.box {
+			position: absolute;
+			top: 300px;
+			left: 240px;
+		}
+	}
+	.gold {
+		&-top {
+			top: 0;
+			right: 172px;
+		}
+		&-right {
+			top: 180px;
+			right: -40px;
+		}
+		&-bottom {
+			left: -30px;
+			bottom: 0;
+		}
+	}
+	.note {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	.title-h3 {
+		padding-top: 40px;
+	}
+	.avartar {
+		text-align: center;
+		padding: 27px 0 35px;
+	}
+}
+
+/*======================================
+        local07
+======================================*/
+.local07 {
+	.content {
+		padding-top: 60px;
+	}
+	.thumb {
+		float: left;
+		width: 45%;
+	}
+	.description {
+		float: right;
+		width: 55%;
+		.title-h3,.txt {
+			text-align: left;
+			padding-left: 30px;
+		}
+		.title-h3 {
+			padding-bottom: 20px;
+		}
+		.txt {
+			padding-bottom: 22px;
+			border-bottom: 2px solid $color-c;
+			margin-bottom: 25px;
+			&:last-child {
+				border-bottom: 0;
+				margin-bottom: 0;
+			}
+		}
+	}
+	.banner {
+		position: relative;
+		.message,
+		.btn {
+			position: absolute;
+		}
+		.message {
+			top: -30px;
+			right: -20px;
+		}
+		.btn {
+			right: 57px;
+			bottom: 15px;
+			img {
+				width: 631px;
+				height: 116px;
+			}
+		}
+	}
+}
+
+/*======================================
+        local08
+======================================*/
+.local08 {
+	z-index: 9999;
+	padding-top: 147px;
+	.problem {
+		background: url('../img/bg_05.png') center center repeat-y;
+		background-size: 100% 100%;
+		margin-top: 70px;
+		padding: 96px 36px;
+		li {
+			background: url('../img/bg_04.png') repeat;
+			padding-left: 40px;
+			margin-bottom: 110px;
+			box-shadow: $box-shadow;
+			position: relative;
+			padding-top: 100px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		h3 {
+			position: absolute;
+			top: -50px;
+		}
+		.content {
+			width: 57%;
+			float: left;
+			line-height: 1.56;
+			p {
+				font-size: 22px;
+				padding-right: 15px;
+			}
+		}
+		.thumb {
+			float: right;
+			width: 43%;
+			img {
+				position: relative;
+				top: -50px;
+				right: -40px;
+			}
+		}
+		.title-h4 {
+			color: $color-c;
+			font-size: 32px;
+			padding-bottom: 10px;
+		}
+	}	
+	.arrow {
+		z-index: 999;
+		position: relative;
+	}
+}
+
+/*======================================
+        local09
+======================================*/
+.local09 {
+	h2 {
+		position: relative;
+		top: -50px;
+		z-index: 10;
+	}
+	.arrow {
+		padding-bottom: 70px;
+	}
+	.intro {
+		border: 2px solid $color-c;
+		min-height: 679px;
+		position: relative;
+		.block-quote {
+			position: absolute;
+			top: 100px;
+			right: 0;
+		}
+		.man-img {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			z-index: 99;
+		}
+		.icon {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 999;
+		}
+		.content {
+			width: 544px;
+			position: absolute;
+			top: 300px;
+			font-size: 22px;
+			right: 28px;
+			.txt {
+				line-height: 1.23;
+				font-size: 22px;
+			}
+		}
+		.more {
+			padding: 15px 0 20px;
+			background: black;
+			color: white;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 100%;
+			z-index: 100;
+			padding-left: 25%;
+		}
+		.name {
+			float: left;
+			width: 20%;
+		}
+		.description {
+			float: right;
+			width: 75%;
+			font-size: 18px;
+			line-height: 1.56;
+		}
+	}
+}
+/*======================================
+        local10
+======================================*/
+.local10 {
+	padding-top: 40px;
+	.title-h2 {
+		padding-bottom: 50px;
+	}
+	.q-a-content {
+		margin-bottom: 30px;
+		padding: 0 60px 0 84px;
+		text-align: center;	
+		&:after {
+			display: inline-block;
+			content: url('../img/img_shadow.png');
+		}
+	}
+	.infor {
+		background: url('../img/bg_04.png') repeat;
+		width: 815px;
+		text-align: left;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.description {
+		padding-left: 125px;
+		padding-right: 20px;
+		width: 60%;
+		float: left;
+		position: relative;
+		&:after {
+			content: url('../img/icon_a.png');
+			position: absolute;
+			top: 0;
+			left: 25px;
+		}
+		&.full {
+			width: 100%;
+		}
+		.title-h4 {
+			color: $color-bd;
+			font-weight: bold;
+			padding-bottom: 20px;
+		}
+	}
+	.thumb {
+		float: right;
+		width: 40%;
+	}
+	.arrow {
+		padding-bottom: 77px;
+	}
+}
+
+/*======================================
+        local11
+======================================*/
+.local11 {
+	background: url('../img/bg_04.png') repeat;
+	padding-bottom: 55px;
+	.title-h2 {
+		position: relative;
+		.shake {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		& + .title-h3 {
+			margin-top: -50px;
+			padding-bottom: 34px;
+		}
+	}
+	.title-h4 {
+		text-align: center;
+	}
+	.description {
+		width: 65%;
+		float: left;
+		padding-left: 60px;
+		padding-top: 43px;
+		&.w60 {
+			width: 50%;
+		}
+		.note {
+			text-align: right;
+		}
+		.title-h4 {
+			text-align: left;
+			padding-bottom: 28px;
+		}
+	}
+	.thumbs {
+		width: 35%;
+		float: right;
+		img {
+			position: relative;
+			top: -75px;
+		}
+		&02 {
+			img {
+				top: 100px;
+				left: -70px;
+			}
+		}
+	}
+	.list {
+		padding-bottom: 50px;
+		li {
+			padding-top: 44px;
+			float: left;
+			width: 33.33%;
+			text-align: center;
+			h3,p {
+				display: inline-block;
+				
+			}
+			p {
+				padding-top: 6px;
+				width: 215px;
+			}
+		}
+	}
+	.group-img {
+		text-align: center;
+	}
+	&  > .title-h3 {
+		padding-bottom: 90px;
+	}
+	.intro {
+		box-shadow: $box-shadow;
+		border: 30px solid $color-d;
+		padding: 22px 0;
+		.logo,.content,.thumb {
+			float: left;
+		}
+		.logo,.thumb {
+			text-align: center;
+			width: 25%;
+		}
+		.content {
+			width: 50%;
+			.title-h4 {
+				padding-bottom: 10px;
+			}
+			.txt {
+				font-size: 24px;
+			}
+		}
+	}
+}
+
+/*======================================
+        local12
+======================================*/
+.local12 {
+	@extend .local07;
+}

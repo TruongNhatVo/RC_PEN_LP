@@ -1,0 +1,18 @@
+/*======================================
+        Header
+======================================*/
+.header {
+    .main-banner {
+    	position: relative;
+    	.gold {
+    		top: 85px;
+    		right: 0;
+    		z-index: 999;
+    	}
+    	.banner {
+    		margin-left: -29px;
+    	}
+    }
+}
+
+

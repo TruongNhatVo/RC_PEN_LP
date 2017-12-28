@@ -1,0 +1,48 @@
+.ctrbtn {
+    width: 80.9rem;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    .shiny {
+        position: absolute;
+        left: 1rem;
+        top: -8rem;
+        z-index: 10;
+        display: block;
+        width: 8rem;
+        height: 40rem;
+        margin-top: .7rem;
+        transform: rotate(45deg);
+        background-image: linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+        background-image: gradient(linear, left bottom, right bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));
+    }
+}
+
+.icon_dolar {
+        position: absolute;
+        z-index: 99;
+        left: 4.2rem;
+        top: -1rem;
+    .dolar {
+        top: -3.4rem;
+        overflow: hidden;
+        position: absolute;
+        width: 27rem;
+        height: 27.1rem;
+        border-radius: 50%;
+        .shiny {
+            position: absolute;
+            left: 1rem;
+            top: -10rem;
+            z-index: 10;
+            display: block;
+            width: 8rem;
+            height: 45rem;
+            margin-top: .7rem;
+            transform: rotate(45deg);
+            background-image: linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+            background-image: gradient(linear, left bottom, right bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));
+        }
+    }
+}
