@@ -6,11 +6,17 @@
     	position: relative;
     	.gold {
     		top: 85px;
-    		right: 0;
+    		right: -20px;
     		z-index: 999;
+    		.dolar {
+    			width: 280px;
+    			height: 182px;
+    			top: 0;
+    			left: 0;
+    		}
     	}
     	.banner {
-    		margin-left: -29px;
+    		margin-left: -31px;
     	}
     }
 }

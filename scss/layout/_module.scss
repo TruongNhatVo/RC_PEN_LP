@@ -30,24 +30,47 @@
 }
 
 .banner {
-        position: relative;
-        .message,
-        .btn {
-            position: absolute;
-        }
-        .message {
-            top: -30px;
-            right: -20px;
-        }
-        .btn {
-            right: 57px;
-            bottom: 15px;
-            img {
-                width: 631px;
-                height: 116px;
-            }
+    position: relative;
+    .message,
+    .btn {
+        position: absolute;
+    }
+    .message {
+        top: -30px;
+        right: -20px;
+    }
+    .btn {
+        right: 57px;
+        bottom: 15px;
+        img {
+            width: 631px;
+            height: 116px;
         }
     }
+}
+
+.group-shake {
+    height: 890px;
+    position: relative;
+    background: url('../image/bg_01.png') center center no-repeat;
+    .shake {
+        position: absolute;
+        &01 {
+            top: 92px;
+            left: 320px;
+            animation-delay: 500ms;
+        }
+        &02 {
+            left: 30px;
+            bottom: 80px;
+        }
+        &03 {
+            right: 30px;
+            bottom: 80px;
+            animation-delay: 1500ms;
+        }
+    }
+}
 
 %clearfix {
     &:after {
