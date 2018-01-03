@@ -10,9 +10,9 @@
 ======================================*/
 
 .local_01 {
-    padding-top: 141px;
+    padding-top: 65px;
     .title-h2 {
-        padding-bottom: 117px;
+        padding-bottom: 40px;
     }
 }
 
@@ -152,6 +152,7 @@
     }
     .note {
         padding-top: 30px;
+        padding-right: 30px;
         font-weight: bold;
         text-align: right;
     }
@@ -175,7 +176,8 @@
         margin-top: -230px;
         .txt {
             text-align: center;
-            font-size: 23px;
+            font-size: 16px;
+            padding-bottom: 40px;
         }
     }
     .intro {
@@ -230,6 +232,9 @@
 ======================================*/
 
 .local_07 {
+    .arrow {
+        padding-top: 100px;
+    }
     .content {
         padding-top: 60px;
     }
@@ -344,7 +349,7 @@
         border: 2px solid $color-c;
         min-height: 679px;
         position: relative;
-        padding: 300px 0 140px 400px;
+        padding: 300px 0 180px 400px;
         .block-quote {
             position: absolute;
             top: 100px;
@@ -384,12 +389,14 @@
         .name {
             float: left;
             width: 20%;
+            padding-top: 5px;
         }
         .description {
             float: right;
-            width: 75%;
+            width: 73%;
             font-size: 18px;
             line-height: 1.56;
+            padding-right: 20px;
         }
     }
 }
@@ -400,7 +407,7 @@
 ======================================*/
 
 .local_10 {
-    padding-top: 40px;
+    padding-top: 100px;
     .title-h2 {
         padding-bottom: 50px;
     }
@@ -440,6 +447,9 @@
             font-weight: bold;
             padding-bottom: 20px;
         }
+        .note {
+            text-align: right;
+        }
     }
     .thumb {
         float: right;
@@ -475,13 +485,10 @@
         text-align: center;
     }
     .description {
-        width: 65%;
+        width: 60%;
         float: left;
         padding-left: 100px;
         padding-top: 43px;
-        &.w60 {
-            width: 50%;
-        }
         .note {
             text-align: right;
         }
@@ -491,7 +498,7 @@
         }
     }
     .thumbs {
-        width: 35%;
+        width: 40%;
         float: right;
         img {
             position: relative;
@@ -500,12 +507,11 @@
         &02 {
             img {
                 top: 100px;
-                left: -70px;
             }
         }
     }
     .list {
-    	padding: 0 60px;
+        padding: 0 70px;
         padding-bottom: 50px;
         li {
             padding-top: 44px;
@@ -730,15 +736,15 @@
 }
 
 .local_15 {
-	margin-top: 400px;
-	position: relative;
-	padding-top: 73px;
+    margin-top: 400px;
+    position: relative;
+    padding-top: 73px;
     background: #FFECBA;
     font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
     .title-h2 {
-    	position: absolute;
-    	top: -350px;
-    	z-index: 999;
+        position: absolute;
+        top: -350px;
+        z-index: 999;
     }
     .news01 {
         background: #ffffff;
@@ -769,7 +775,7 @@
         line-height: 2.8rem;
     }
     .listItems {
-    	@extend %clearfix;
+        @extend %clearfix;
         padding-top: 4rem;
         width: 84.2rem;
         margin: auto;
