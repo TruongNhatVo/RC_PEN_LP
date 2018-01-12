@@ -1,0 +1,34 @@
+/*======================================
+        Header
+======================================*/
+.header {
+    .main-banner {
+    	position: relative;
+        overflow: hidden;
+    	.gold {
+    		top: 15%;
+            right: 0;
+    		z-index: 999;
+            width: 30%;
+            &-txt {
+                width: 80%;
+            }
+    		.dolar {
+                width: 100%;
+                height: 100%;
+    			top: 0;
+    			left: 0;
+    		}
+    	}
+    	.banner {
+            width: 106%;
+            margin-left: -6%;
+    	}
+    }
+    .note {
+        font-size: 2vw; 
+        padding-left: 1%;   
+    }
+}
+
+

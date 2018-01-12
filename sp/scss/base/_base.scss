@@ -1,0 +1,36 @@
+body {
+    font-family: $font-body;
+    color: $color-o;
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    &:hover {
+        color: $color-primary;
+        text-decoration: none;
+        img {
+            opacity: 0.8;
+        }
+    }
+    &:focus {
+        color: $color-primary;
+        text-decoration: none;
+    }
+}
+h1, h2, h3, h4, h5, h5, h6 {
+    font-family: $font-body;
+    font-weight: bold;
+}
+img {
+    width: 100%;
+    vertical-align: top;
+}
+li, ol {
+    list-style: none;
+}
+button, input, a {
+    &:focus {
+        outline: none;
+    }
+}

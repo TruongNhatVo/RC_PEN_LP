@@ -1,0 +1,25 @@
+/*======================================
+        Header
+======================================*/
+.header .main-banner {
+  position: relative;
+  overflow: hidden; }
+  .header .main-banner .gold {
+    top: 15%;
+    right: 0;
+    z-index: 999;
+    width: 30%; }
+    .header .main-banner .gold-txt {
+      width: 80%; }
+    .header .main-banner .gold .dolar {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0; }
+  .header .main-banner .banner {
+    width: 106%;
+    margin-left: -6%; }
+
+.header .note {
+  font-size: 2vw;
+  padding-left: 1%; }

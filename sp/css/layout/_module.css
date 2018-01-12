@@ -1,0 +1,82 @@
+#container {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  margin: 0 auto; }
+
+/*------------------- Component -------------------*/
+.title_h2,
+.title_h3,
+.arrow {
+  text-align: center; }
+
+.title_h4 {
+  font-size: 3vw;
+  line-height: 1.42; }
+
+.txt {
+  font-size: 3vw;
+  line-height: 1.5;
+  font-weight: bold; }
+
+.note {
+  font-size: 2.3vw;
+  font-weight: bold; }
+
+.banner {
+  position: relative; }
+  .banner .message,
+  .banner .btn {
+    position: absolute; }
+  .banner .message {
+    width: 18vw;
+    top: 10vw;
+    right: 2vw; }
+  .banner .btn {
+    bottom: 0.5vw;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
+    .banner .btn img {
+      width: 80vw; }
+
+.fnt-style {
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif; }
+
+.group-shake {
+  height: 110vw;
+  position: relative;
+  background: url("../image/bg_01.png") center center no-repeat;
+  background-size: cover; }
+  .group-shake .shake {
+    width: 45vw;
+    position: absolute; }
+    .group-shake .shake01 {
+      top: 10%;
+      position: absolute;
+      left: 30%; }
+    .group-shake .shake02 {
+      left: 2%;
+      bottom: 5%; }
+    .group-shake .shake03 {
+      right: 2%;
+      bottom: 5%;
+      -webkit-animation-delay: 1500ms;
+      animation-delay: 1500ms; }
+
+.row-clear:after, #container:after {
+  display: block;
+  content: '';
+  clear: both; }
+
+.gold {
+  position: absolute; }
+  .gold-txt {
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }

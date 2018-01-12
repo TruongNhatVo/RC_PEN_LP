@@ -1,0 +1,46 @@
+// **********************************
+//   font-family
+// **********************************
+$font-body: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Hiragino Sans, 'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, '游ゴシック  Medium', meiryo, sans-serif;
+
+$font-micho: 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+$font-awesome: "FontAwesome";
+
+// **********************************
+//   COLOR
+// **********************************
+// Brand Color
+$color-primary: #006E6E;
+$color-1: #85294A;
+
+// Application Color
+$color-a: #ffffff;
+$color-b: #FFECBA;
+$color-c: #0B3190;
+$color-d: #42210B;
+$color-e: #323232;
+$color-o: #000;
+$color-ft: #44A680;
+$color-bd: #C40000;
+$box-shadow: 10px 11px 5px -5px rgba(128,128,128,0.6);
+
+// **********************************
+//   EXTENDS
+// **********************************
+
+%clearfix {
+    &:after {
+        content: "";
+        clear: both;
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+}
+
+// **********************************
+//   FUNCTIONS
+// **********************************
+// @mixin width($parent,$children) {
+// 	width: round(percentage($parent,$children)); 
+// }
