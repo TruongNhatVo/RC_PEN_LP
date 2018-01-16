@@ -5,10 +5,18 @@
     .main-banner {
     	position: relative;
         overflow: hidden;
+        margin-bottom: 1%;
+        .txt {
+            position: absolute;
+            top: 18%;
+            left: 1.4%;
+            z-index: 100;
+            width: 72%;
+        }
     	.gold {
-    		top: 15%;
+    		top: 13%;
             right: 0;
-    		z-index: 999;
+    		z-index: 99;
             width: 30%;
             &-txt {
                 width: 80%;
@@ -26,7 +34,7 @@
     	}
     }
     .note {
-        font-size: 2vw; 
+        font-size: 1.4vw; 
         padding-left: 1%;   
     }
 }

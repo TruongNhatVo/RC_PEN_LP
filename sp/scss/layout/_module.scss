@@ -7,6 +7,7 @@
     background: #fff;
     width: 100%;
     margin: 0 auto;
+    overflow: hidden;
     @extend %clearfix; // padding: 0 15px;
 }
 
@@ -32,7 +33,7 @@
 }
 
 .note {
-    font-size: 2.3vw;
+    font-size: 2vw;
     font-weight: bold;
 }
 
@@ -48,26 +49,25 @@
         right: 2vw;
     }
     .btn {
-        bottom: 0.5vw;
-        left: 50%;
-        transform: translateX(-50%);
-        img {
-            width: 80vw;
-        }
+        bottom: 2vw;
+        left: 0;
+        right: 0;
+        width: 80vw;
+        margin: 0 auto;
     }
 }
 
-.fnt-style {
+.font-style {
     font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
 }
 
 .group-shake {
-    height: 110vw;
+    height: 85vw;
     position: relative;
-    background: url('../image/bg_01.png') center center no-repeat;
+    background: url('../images/bg_01.png') center center no-repeat;
     background-size: cover;
     .shake {
-        width: 45vw;
+        width: 40vw;
         position: absolute;
         &01 {
             top: 10%;
@@ -76,11 +76,11 @@
         }
         &02 {
             left: 2%;
-            bottom: 5%;
+            bottom: 1%;
         }
         &03 {
             right: 2%;
-            bottom: 5%;
+            bottom: 1%;
             animation-delay: 1500ms;
         }
     }

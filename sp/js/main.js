@@ -16,7 +16,7 @@ function shinyButton() {
     $('.ctrbtn .shiny').animate({
         left: '+=100vw'
     }, 3000).animate({
-        left: '-50vw'
+        left: '10vw'
     }, 0);
     setTimeout('shinyButton()', 1000);
 }
@@ -24,7 +24,7 @@ setTimeout('shinyButton()', 500);
 
 // Scroll back to top
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 1000) {
+    if ($(this).scrollTop() > 100) {
         $('#toTop').fadeIn(500);
     } else {
         $('#toTop').fadeOut(500);
