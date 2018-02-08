@@ -358,7 +358,7 @@ button:focus, input:focus, a:focus {
   border: 1vw solid red;
   -webkit-border-radius: 1vw;
   border-radius: 1vw;
-  padding: 3vw 0;
+  padding: 2vw 0;
   background: url("../images/bg_02.png") center center;
   -webkit-box-shadow: 10px 11px 5px -5px rgba(128, 128, 128, 0.6);
   box-shadow: 10px 11px 5px -5px rgba(128, 128, 128, 0.6);
@@ -453,7 +453,7 @@ button:focus, input:focus, a:focus {
 .local_05, .local_13 {
   overflow: hidden;
   padding-top: 15vw;
-  padding: 10% 3% 0 3%;
+  padding: 10% 4% 0 4%;
 }
 
 .local_05 .title_h2, .local_13 .title_h2 {
@@ -501,6 +501,10 @@ button:focus, input:focus, a:focus {
   width: 28vw;
 }
 
+.local_05 .gold .gold-txt, .local_13 .gold .gold-txt {
+  width: 110%;
+}
+
 .local_05 .gold .dolar, .local_13 .gold .dolar {
   width: 26vw;
   height: 26vw;
@@ -524,6 +528,10 @@ button:focus, input:focus, a:focus {
 .local_05 .gold-bottom .dolar, .local_13 .gold-bottom .dolar {
   width: 25vw;
   height: 25vw;
+}
+
+.local_05 .gold-bottom .gold-txt, .local_13 .gold-bottom .gold-txt {
+  width: 120%;
 }
 
 .local_05 .note, .local_13 .note {
@@ -584,7 +592,7 @@ button:focus, input:focus, a:focus {
   -webkit-background-size: 100% 100%;
   background-size: 100% 100%;
   margin-top: 12vw;
-  padding: 8vw 3vw;
+  padding: 8vw 4vw;
   padding-bottom: 3.5vw;
 }
 
@@ -621,7 +629,7 @@ button:focus, input:focus, a:focus {
 }
 
 .local_07 .problem .content {
-  width: 70%;
+  width: 63%;
   font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
   float: left;
   line-height: 1.56;
@@ -634,21 +642,21 @@ button:focus, input:focus, a:focus {
 
 .local_07 .problem .thumb {
   float: right;
-  width: 36%;
+  width: 42%;
   position: absolute;
-  right: -5vw;
-  bottom: 1vw;
+  right: -3.5vw;
+  bottom: -1vw;
 }
 
 .local_07 .problem .thumb img {
   position: relative;
-  width: 30vw;
+  width: 36vw;
 }
 
 .local_07 .problem .title_h4 {
   font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
   color: #0B3190;
-  font-size: 4.6vw;
+  font-size: 4.2vw;
   padding-bottom: 10px;
   font-weight: bold;
   line-height: 1.3;
@@ -802,10 +810,10 @@ button:focus, input:focus, a:focus {
 
 .local_09 .description, .local_15 .description {
   padding-left: 16vw;
-  padding-right: 2vw;
-  width: 70%;
+  width: 65%;
   float: left;
   position: relative;
+  text-align: justify;
 }
 
 .local_09 .description:after, .local_15 .description:after {
@@ -826,7 +834,7 @@ button:focus, input:focus, a:focus {
 }
 
 .local_09 .description.full .txt, .local_15 .description.full .txt {
-  padding-right: 4vw;
+  padding-right: 5vw;
 }
 
 .local_09 .description .title_h4, .local_15 .description .title_h4 {
@@ -844,11 +852,16 @@ button:focus, input:focus, a:focus {
 
 .local_09 .description .note, .local_15 .description .note {
   text-align: right;
+  padding-right: 2vw;
 }
 
 .local_09 .thumb, .local_15 .thumb {
   float: right;
-  width: 30%;
+  width: 35%;
+}
+
+.local_09 .thumb img, .local_15 .thumb img {
+  width: 107%;
 }
 
 .local_09 .arrow, .local_15 .arrow {
@@ -947,6 +960,11 @@ button:focus, input:focus, a:focus {
   top: -10vw;
 }
 
+.local_10 .thumbs img {
+  position: relative;
+  right: 4vw;
+}
+
 .local_10 .thumbs .note {
   text-align: center;
   font-size: 1.4vw;
@@ -955,10 +973,7 @@ button:focus, input:focus, a:focus {
 
 .local_10 .thumbs02 {
   top: 18vw;
-}
-
-.local_10 .thumbs02 img {
-  top: 100px;
+  right: 0;
 }
 
 .local_10 .list {
@@ -1029,6 +1044,10 @@ button:focus, input:focus, a:focus {
 
 .intro01 .content .title_h4 img {
   width: 90%;
+}
+
+.intro01 .content .txt {
+  font-size: 3.2vw;
 }
 
 .intro01 .thumb {
@@ -1143,7 +1162,7 @@ button:focus, input:focus, a:focus {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 3vw 0 2vw 4vw;
+  padding: 3vw 0 2vw 6vw;
 }
 
 .local_12 .intro .description .title_h4 {
@@ -1169,6 +1188,7 @@ button:focus, input:focus, a:focus {
 }
 
 .local_12 .note {
+  font-size: 1.6vw;
   padding-left: 1vw;
 }
 
@@ -1220,7 +1240,7 @@ button:focus, input:focus, a:focus {
 
 .local_14 .text {
   text-align: justify;
-  font-size: 3.5vw;
+  font-size: 3.3vw;
   line-height: 1.45;
 }
 
@@ -1231,7 +1251,7 @@ button:focus, input:focus, a:focus {
 }
 
 .local_14 .listItems + .note {
-  padding-bottom: 2vw;
+  padding-bottom: 3vw;
   font-size: 1.8vw;
   float: none;
 }
@@ -1247,7 +1267,7 @@ button:focus, input:focus, a:focus {
 }
 
 .local_14 .items:last-child {
-  margin-bottom: 2vw;
+  margin-bottom: 3vw;
 }
 
 .local_14 .items .text {
@@ -1264,7 +1284,7 @@ button:focus, input:focus, a:focus {
 }
 
 .local_14 .note2 {
-  font-size: 3vw;
+  font-size: 3.5vw;
   float: right;
 }
 
